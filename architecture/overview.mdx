@@ -1,0 +1,38 @@
+---
+title: "Architecture Overview"
+description: "High-level architecture of ConfigFlow AI"
+---
+
+# Architecture Overview
+
+ConfigFlow AI follows a modular architecture where each major responsibility is isolated into a dedicated component.
+
+```text
+User
+ |
+ v
+Frontend
+ |
+ v
+API Layer
+ |
+ v
+Application Services
+ |
+ +-- Analyzer
+ +-- AI Agents
+ +-- Decision Engine
+ +-- Generators
+ +-- Validators
+ |
+ v
+Integrations
+```
+
+## Design Principles
+
+- Separation of concerns
+- Extensibility
+- Validation-first workflow
+- Explainable decisions
+- Modular integrations

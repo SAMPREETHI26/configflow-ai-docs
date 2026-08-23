@@ -1,0 +1,148 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "ConfigFlow AI",
+  "description": "AI-powered engineering configuration automation platform for analyzing technical documents, making configuration decisions, generating engineering configuration files, and validating output.",
+
+  "theme": "mint",
+
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1E40AF"
+  },
+
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "getting-started/overview",
+          "getting-started/installation",
+          "getting-started/quick-start"
+        ]
+      },
+      {
+        "group": "Architecture",
+        "pages": [
+          "architecture/overview",
+          "architecture/system-design",
+          "architecture/project-structure",
+          "architecture/data-flow"
+        ]
+      },
+      {
+        "group": "Core Workflow",
+        "pages": [
+          "workflow/overview",
+          "workflow/document-analysis",
+          "workflow/decision-making",
+          "workflow/configuration-generation",
+          "workflow/validation"
+        ]
+      },
+      {
+        "group": "AI Agents",
+        "pages": [
+          "agents/overview",
+          "agents/document-analyzer-agent",
+          "agents/decision-agent",
+          "agents/configuration-agent",
+          "agents/validation-agent"
+        ]
+      },
+      {
+        "group": "Document Analyzer",
+        "pages": [
+          "analyzer/overview",
+          "analyzer/psd-analysis",
+          "analyzer/data-extraction",
+          "analyzer/schema-detection"
+        ]
+      },
+      {
+        "group": "Decision Engine",
+        "pages": [
+          "decision-engine/overview",
+          "decision-engine/schema-selection",
+          "decision-engine/reuse-or-create"
+        ]
+      },
+      {
+        "group": "Configuration Generation",
+        "pages": [
+          "generators/overview",
+          "generators/meta-generator",
+          "generators/process-generator",
+          "generators/label-generator"
+        ]
+      },
+      {
+        "group": "Validation",
+        "pages": [
+          "validation/overview",
+          "validation/schema-validation",
+          "validation/business-rules"
+        ]
+      },
+      {
+        "group": "Integrations",
+        "pages": [
+          "integrations/overview",
+          "integrations/sndb",
+          "integrations/git"
+        ]
+      },
+      {
+        "group": "Backend",
+        "pages": [
+          "backend/overview",
+          "backend/application-structure",
+          "backend/services"
+        ]
+      },
+      {
+        "group": "Frontend",
+        "pages": [
+          "frontend/overview",
+          "frontend/application-structure",
+          "frontend/user-workflow"
+        ]
+      },
+      {
+        "group": "API Reference",
+        "pages": [
+          "api/overview",
+          "api/analyze-document",
+          "api/generate-configuration",
+          "api/validate-configuration"
+        ]
+      },
+      {
+        "group": "Configuration Reference",
+        "pages": [
+          "configuration/overview",
+          "configuration/meta-config",
+          "configuration/process-config",
+          "configuration/examples"
+        ]
+      },
+      {
+        "group": "Deployment",
+        "pages": [
+          "deployment/overview",
+          "deployment/environment",
+          "deployment/run-project"
+        ]
+      },
+      {
+        "group": "Reference",
+        "pages": [
+          "reference/technology-stack",
+          "reference/troubleshooting",
+          "reference/roadmap"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+---
+title: "Troubleshooting"
+description: "Common problems and solutions"
+---
+
+# Troubleshooting
+
+## Python not found
+
+Run:
+
+```powershell
+py --version
+```
+
+## Virtual environment activation error
+
+Run:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Then activate:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+## Mint command not found
+
+Verify:
+
+```powershell
+mint --version
+```

@@ -1,0 +1,55 @@
+---
+title: "Installation"
+description: "Set up ConfigFlow AI locally"
+---
+
+# Installation
+
+## Prerequisites
+
+Install Python, Node.js, npm, and the Mintlify CLI.
+
+### Verify Python
+
+```powershell
+py --version
+```
+
+### Verify Node.js
+
+```powershell
+node --version
+```
+
+### Verify npm
+
+```powershell
+npm --version
+```
+
+## Create the Python Environment
+
+From the project root:
+
+```powershell
+py -m venv .venv
+```
+
+Activate it:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+Install backend dependencies:
+
+```powershell
+pip install fastapi uvicorn pydantic python-multipart
+```
+
+## Install Frontend Dependencies
+
+```powershell
+cd frontend
+npm install
+```

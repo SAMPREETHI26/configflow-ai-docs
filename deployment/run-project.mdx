@@ -1,0 +1,28 @@
+---
+title: "Run the Project"
+description: "Run all ConfigFlow AI services"
+---
+
+# Run the Project
+
+## Backend
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+cd backend
+uvicorn src.configflow.main:app --reload
+```
+
+## Frontend
+
+```powershell
+cd frontend
+npm run dev
+```
+
+## Documentation
+
+```powershell
+cd docs
+mint dev
+```

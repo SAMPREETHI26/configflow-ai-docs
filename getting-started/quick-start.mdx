@@ -1,0 +1,32 @@
+---
+title: "Quick Start"
+description: "Run ConfigFlow AI"
+---
+
+# Quick Start
+
+## Start Backend
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+cd backend
+uvicorn src.configflow.main:app --reload
+```
+
+## Start Frontend
+
+Open another terminal:
+
+```powershell
+cd frontend
+npm run dev
+```
+
+## Start Documentation
+
+Open another terminal:
+
+```powershell
+cd docs
+mint dev
+```
